@@ -11,6 +11,7 @@
 	"textures": {
 		"steel": "block/metal/ingot/steel",
 		"electrum2": "block/metal/plate/electrum",
+		"silver": "block/metal/plate/silver",
 		"emeral": "block/stone/gem/emeral",
 		"purple": "item/tool/shield/leather/purple"
 	},
@@ -48,12 +49,12 @@
 							"to": [ 0.0, 1.6, 1.0 ],
 							"rotationOrigin": [ 0.0, 0.6, 0.5 ],
 							"faces": {
-								"north": { "texture": "#steel", "uv": [ 13.5, 4.0, 14.5, 6.0 ] },
-								"east": { "texture": "#steel", "uv": [ 0.0, 4.5, 1.0, 6.5 ] },
-								"south": { "texture": "#steel", "uv": [ 8.5, 6.0, 9.5, 8.0 ] },
-								"west": { "texture": "#steel", "uv": [ 12.5, 0.0, 13.5, 2.0 ] },
-								"up": { "texture": "#steel", "uv": [ 5.5, 0.5, 6.5, 1.5 ] },
-								"down": { "texture": "#steel", "uv": [ 12.5, 4.5, 13.5, 5.5 ] }
+								"north": { "texture": "#silver", "uv": [ 13.5, 4.0, 14.5, 6.0 ] },
+								"east": { "texture": "#silver", "uv": [ 0.0, 4.5, 1.0, 6.5 ] },
+								"south": { "texture": "#silver", "uv": [ 8.5, 6.0, 9.5, 8.0 ] },
+								"west": { "texture": "#silver", "uv": [ 12.5, 0.0, 13.5, 2.0 ] },
+								"up": { "texture": "#silver", "uv": [ 5.5, 0.5, 6.5, 1.5 ] },
+								"down": { "texture": "#silver", "uv": [ 12.5, 4.5, 13.5, 5.5 ] }
 							}
 						},
 						{
@@ -62,12 +63,12 @@
 							"to": [ 5.0, 1.6, 1.0 ],
 							"rotationOrigin": [ 4.0, 0.6, 0.5 ],
 							"faces": {
-								"north": { "texture": "#steel", "uv": [ 5.0, 10.5, 6.0, 12.5 ] },
-								"east": { "texture": "#steel", "uv": [ 13.5, 2.0, 14.5, 4.0 ] },
-								"south": { "texture": "#steel", "uv": [ 6.5, 4.0, 7.5, 6.0 ] },
-								"west": { "texture": "#steel", "uv": [ 3.0, 1.0, 4.0, 3.0 ] },
-								"up": { "texture": "#steel", "uv": [ 12.5, 2.0, 13.5, 3.0 ] },
-								"down": { "texture": "#steel", "uv": [ 3.0, 2.5, 4.0, 3.5 ] }
+								"north": { "texture": "#silver", "uv": [ 5.0, 10.5, 6.0, 12.5 ] },
+								"east": { "texture": "#silver", "uv": [ 13.5, 2.0, 14.5, 4.0 ] },
+								"south": { "texture": "#silver", "uv": [ 6.5, 4.0, 7.5, 6.0 ] },
+								"west": { "texture": "#silver", "uv": [ 3.0, 1.0, 4.0, 3.0 ] },
+								"up": { "texture": "#silver", "uv": [ 12.5, 2.0, 13.5, 3.0 ] },
+								"down": { "texture": "#silver", "uv": [ 3.0, 2.5, 4.0, 3.5 ] }
 							},
 							"children": [
 								{
